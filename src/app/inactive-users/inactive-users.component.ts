@@ -17,5 +17,6 @@ export class InactiveUsersComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.users = this.userService.inactiveUsers;
   }
 }
