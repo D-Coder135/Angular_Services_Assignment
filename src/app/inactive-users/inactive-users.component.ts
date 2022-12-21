@@ -15,4 +15,7 @@ export class InactiveUsersComponent implements OnInit {
   onSetToActive(id: number) {
 
   }
+
+  ngOnInit(): void {
+  }
 }
