@@ -3,7 +3,7 @@ export class UserService {
   inactiveUsers = ['Chris', 'Manu'];
 
   setToActive(id: number) {
-
+    this.activeUsers.push(this.inactiveUsers[id]);
   }
 
   setToInactive(id: number) {
