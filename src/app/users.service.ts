@@ -5,4 +5,8 @@ export class UserService {
   setToActive(id: number) {
 
   }
+
+  setToInactive(id: number) {
+
+  }
 }
